@@ -1,1 +1,12 @@
-.Main-content
+.Main-content{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.Header{
+    font-size: large;
+    flex-direction: column-reverse;
+}
+.navigation{
+    align-content: center;
+    justify-content: flex-start;
+}
